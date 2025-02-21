@@ -18,7 +18,7 @@ The prepayment model includes the following major components:
 
 ### Installation
 Clone this repository to your local machine:
-```bash
+
 git clone git@github.com:yongcai0/scPPY.git
 cd scPPY
 
@@ -27,7 +27,7 @@ Open the provided Jupyter Notebook (SC_PPY_model_Run.ipynb) in a Jupyter environ
 Run the notebook to execute the prepayment model and visualize results.
 
 ### Sample File
-A sample obfuscated Python script (dist/YC_ppy.py) is included. This file, protected with Pyarmor, generates the prepayment projections. To use it, ensure the dist/ folder and its runtime files (pyarmor_runtime_xxxxxx/) are intact, and import it in your notebook:
+A sample pool (fnm3467_short.csv) is included. This file has the information fields needed for prepay historical and future projection. To use (dist/YC_ppy.py) properly, ensure the dist/ folder and its runtime files (pyarmor_runtime_xxxxxx/) are intact, and import it in your notebook same way as SC_PPY_model_Run.ipynb does:
 
 import sys
 sys.path.append('dist')
