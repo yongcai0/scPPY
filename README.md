@@ -20,6 +20,7 @@ The prepayment model includes the following major components:
 Clone this repository to your local machine:
 
 git clone git@github.com:yongcai0/scPPY.git
+
 cd scPPY
 
 ### Usage
