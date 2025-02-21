@@ -40,5 +40,4 @@ This project is open-source and available under the MIT License. See the LICENSE
 
 ### Contact
 For questions or feedback, open an issue on this repository.
-# Access model outputs or functions as needed
 
