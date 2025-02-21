@@ -22,21 +22,21 @@ Clone this repository to your local machine:
 git clone git@github.com:yongcai0/scPPY.git
 cd scPPY
 
-Usage
+### Usage
 Open the provided Jupyter Notebook (SC_PPY_model_Run.ipynb) in a Jupyter environment.
 Run the notebook to execute the prepayment model and visualize results.
 
-Sample File
+### Sample File
 A sample obfuscated Python script (dist/YC_ppy.py) is included. This file, protected with Pyarmor, generates the prepayment projections. To use it, ensure the dist/ folder and its runtime files (pyarmor_runtime_xxxxxx/) are intact, and import it in your notebook:
 
 import sys
 sys.path.append('dist')
 import YC_ppy
 
-License
+### License
 This project is open-source and available under the MIT License. See the LICENSE file for details.
 
-Contact
+### Contact
 For questions or feedback, open an issue on this repository.
 # Access model outputs or functions as needed
 
