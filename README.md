@@ -29,7 +29,9 @@ Run the notebook to execute the prepayment model and visualize results.
 To use the library properly, ensure the dist/ folder and its runtime files (pyarmor_runtime_xxxxxx/) are intact, and import it in your notebook same way as SC_PPY_model_Run.ipynb does:
 
 import sys
+
 sys.path.append('dist')
+
 import YC_ppy
 
 ### Sample File
