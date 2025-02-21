@@ -35,6 +35,14 @@ import YC_ppy
 ### Sample File
 A sample pool (fnm3467_short.csv) is included. This file has the information fields needed for historical and future prepayment projection. This sample shows how pool information should be formatted as input.
 
+The historical and projected prepayment speeds (CPR) for the sample file can be visualized in the following graph:
+
+![Prepayment Graph](https://github.com/yongcai0/scPPY/raw/main/fnm3467ppy.png)
+
+- **Blue Line (CPR)**: Realized historical speed for this pool.
+- **Red Line (PCPR)**: Model speed.
+- The graph shows drop of prepayment after the real history due to higher mortgage rate assumption, slowly going down due to burnout, and rising later due to curtailment.
+
 ### License
 This project is open-source and available under the MIT License. See the LICENSE file for details.
 
