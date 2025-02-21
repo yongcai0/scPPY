@@ -25,13 +25,14 @@ cd scPPY
 ### Usage
 Open the provided Jupyter Notebook (SC_PPY_model_Run.ipynb) in a Jupyter environment.
 Run the notebook to execute the prepayment model and visualize results.
-
-### Sample File
-A sample pool (fnm3467_short.csv) is included. This file has the information fields needed for prepay historical and future projection. To use (dist/YC_ppy.py) properly, ensure the dist/ folder and its runtime files (pyarmor_runtime_xxxxxx/) are intact, and import it in your notebook same way as SC_PPY_model_Run.ipynb does:
+To use the library properly, ensure the dist/ folder and its runtime files (pyarmor_runtime_xxxxxx/) are intact, and import it in your notebook same way as SC_PPY_model_Run.ipynb does:
 
 import sys
 sys.path.append('dist')
 import YC_ppy
+
+### Sample File
+A sample pool (fnm3467_short.csv) is included. This file has the information fields needed for historical and future prepayment projection. This sample shows how pool information should be formatted as input.
 
 ### License
 This project is open-source and available under the MIT License. See the LICENSE file for details.
