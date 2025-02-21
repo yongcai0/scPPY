@@ -18,10 +18,10 @@ The prepayment model includes the following major components:
 
 ### Installation
 Clone this repository to your local machine:
-
+```bash
 git clone git@github.com:yongcai0/scPPY.git
-
 cd scPPY
+```
 
 ### Usage
 Open the provided Jupyter Notebook (SC_PPY_model_Run.ipynb) in a Jupyter environment.
